@@ -15,3 +15,4 @@ spec:
     values:
         egressRules:
             denyConnectionsToExternal: false
+    serviceAccountName: my-release-cockroachdb-rotate-self-signer
