@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
     name: cockroachdb
-    namespace: flux-system
+    namespace: default
 spec:
     interval: 30m0s
     url: https://charts.cockroachdb.com/
