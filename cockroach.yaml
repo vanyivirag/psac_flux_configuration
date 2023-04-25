@@ -10,7 +10,7 @@ spec:
             sourceRef: 
                 kind: HelmRepository
                 name: cockroachdb
-            version: ">10.0.0"
+            version: ">=10.0.0"
     interval: 1m0s
     values:
         egressRules:
